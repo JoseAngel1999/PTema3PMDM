@@ -7,5 +7,114 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="EstiloAp" parent="@android:style/TextAppearance.Medium">
+
+        <item name="android:layout_width">@dimen/mi_medida</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="EstiloNombre" parent="@android:style/TextAppearance.Medium">
+
+        <item name="android:layout_width">274dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">Introduzca el nombre</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:text">@string/nombre</item>
+        <item name="android:fontFamily">@font/golden</item>
+
+    </style>
+
+    <style name="EstiloApellido" parent="@android:style/TextAppearance.Medium">
+
+        <item name="android:layout_width">274dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">Introduzca el apellido</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:text">@string/apellido</item>
+        <item name="android:fontFamily">@font/golden</item>
+
+    </style>
+
+    <style name="EstiloEdad" parent="@android:style/TextAppearance.Medium">
+
+        <item name="android:layout_width">274dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">Edad</item>
+        <item name="android:inputType">number</item>
+        <item name="android:text">@string/edad</item>
+        <item name="android:fontFamily">@font/golden</item>
+
+
+    </style>
+
+    <style name="EstiloLista" parent="@android:style/TextAppearance.Medium">
+
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <style name="EstiloSw" parent="@android:style/TextAppearance.Medium">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/hijos</item>
+        <item name="android:fontFamily">@font/golden</item>
+
+    </style>
+
+    <style name="EstiloGenerarTexto" parent="@android:style/TextAppearance.Medium">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/button_generarTexto</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+
+    </style>
+    <style name="EstiloBorrar" parent="@android:style/TextAppearance.Medium">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/button_borrar</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+
+    </style>
+    <style name="EstiloRadioGr" parent="@android:style/TextAppearance.Medium">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <style name="EstiloHombre" parent="@android:style/TextAppearance.Medium">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/button_hombre</item>
+        <item name="android:fontFamily">@font/golden</item>
+
+    </style>
+    <style name="EstiloMujer" parent="@android:style/TextAppearance.Medium">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/button_mujer</item>
+        <item name="android:fontFamily">@font/golden</item>
+
+    </style>
+
+    <style name="EstiloEti" parent="@android:style/TextAppearance.Medium">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+
+
 
 </resources>

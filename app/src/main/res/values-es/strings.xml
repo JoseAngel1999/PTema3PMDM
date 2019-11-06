@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Datos Personales</string>
+    <string name="nombre">Introduzca el nombre</string>
+    <string name="button_borrar">Borrar</string>
+    <string name="button_generarTexto">Generar Texto</string>
+    <string name="apellido">Introduzca el apellido</string>
+    <string name="edad">Edad</string>
+    <string name="estadocivil">Estado Civil</string>
+    <string name="hijos">Tiene Hijos</string>
+    <string name="button_hombre">Hombre</string>
+    <string name="button_mujer">Mujer</string>
 </resources>

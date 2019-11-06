@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //la medida que automaticamente el sistema operativo tomará
+    <dimen name="mi_medida">406dp</dimen>
+
+</resources>
