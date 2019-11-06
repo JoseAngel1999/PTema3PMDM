@@ -19,9 +19,8 @@
         <item name="android:layout_width">274dp</item>
         <item name="android:layout_height">56dp</item>
         <item name="android:ems">10</item>
-        <item name="android:hint">Introduzca el nombre</item>
+        <item name="android:hint">@string/nombre</item>
         <item name="android:inputType">textCapWords</item>
-        <item name="android:text">@string/nombre</item>
         <item name="android:fontFamily">@font/golden</item>
 
     </style>
@@ -31,9 +30,8 @@
         <item name="android:layout_width">274dp</item>
         <item name="android:layout_height">56dp</item>
         <item name="android:ems">10</item>
-        <item name="android:hint">Introduzca el apellido</item>
+        <item name="android:hint">@string/apellido</item>
         <item name="android:inputType">textCapWords</item>
-        <item name="android:text">@string/apellido</item>
         <item name="android:fontFamily">@font/golden</item>
 
     </style>
@@ -43,9 +41,8 @@
         <item name="android:layout_width">274dp</item>
         <item name="android:layout_height">55dp</item>
         <item name="android:ems">10</item>
-        <item name="android:hint">Edad</item>
+        <item name="android:hint">@string/edad</item>
         <item name="android:inputType">number</item>
-        <item name="android:text">@string/edad</item>
         <item name="android:fontFamily">@font/golden</item>
 
 

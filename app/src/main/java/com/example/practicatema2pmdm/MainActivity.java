@@ -80,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
                 radioButton2.setChecked(false);
                 lista1.setSelection(0);
                 switch1.setChecked(false);
+                etiqueta.setText("");
             }
         });
 
