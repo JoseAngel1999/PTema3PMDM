@@ -5,16 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/fondocolor"
     tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/NombreO"
-        android:layout_width="274dp"
-        android:layout_height="56dp"
-        android:ems="10"
-        android:hint="Introduzca el nombre"
-        android:inputType="textCapWords"
-        android:text="@string/nombre"
+        style="@style/EstiloNombre"
         app:layout_constraintBottom_toTopOf="@+id/apellidoO"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -23,12 +19,7 @@
 
     <EditText
         android:id="@+id/apellidoO"
-        android:layout_width="274dp"
-        android:layout_height="56dp"
-        android:ems="10"
-        android:hint="Introduzca el apellido"
-        android:inputType="textCapWords"
-        android:text="@string/apellido"
+        style="@style/EstiloApellido"
         app:layout_constraintBottom_toTopOf="@+id/edad"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -37,12 +28,7 @@
 
     <EditText
         android:id="@+id/edad"
-        android:layout_width="274dp"
-        android:layout_height="55dp"
-        android:ems="10"
-        android:hint="Edad"
-        android:inputType="number"
-        android:text="@string/edad"
+        style="@style/EstiloEdad"
         app:layout_constraintBottom_toTopOf="@+id/lista1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -51,8 +37,8 @@
 
     <Spinner
         android:id="@+id/lista1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        style="@style/EstiloLista"
+
         app:layout_constraintBottom_toTopOf="@+id/switch1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -61,9 +47,7 @@
 
     <Switch
         android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hijos"
+        style="@style/EstiloSw"
         app:layout_constraintBottom_toTopOf="@+id/radioGroup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -72,9 +56,7 @@
 
     <Button
         android:id="@+id/generarTexto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/button_generarTexto"
+        style="@style/EstiloGenerarTexto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -83,9 +65,8 @@
 
     <Button
         android:id="@+id/buttonBorrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/button_borrar"
+        style="@style/EstiloBorrar"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/generarTexto"
         app:layout_constraintHorizontal_bias="0.577"
@@ -95,8 +76,7 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/EstiloRadioGr"
         app:layout_constraintBottom_toTopOf="@+id/generarTexto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -105,22 +85,17 @@
 
         <RadioButton
             android:id="@+id/radioButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/button_hombre" />
+            style="@style/EstiloHombre"/>
 
         <RadioButton
             android:id="@+id/radioButton2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/button_mujer" />
+            style="@style/EstiloMujer" />
 
     </RadioGroup>
 
     <TextView
         android:id="@+id/etiqueta"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/EstiloEti"
         app:layout_constraintBottom_toTopOf="@+id/generarTexto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
